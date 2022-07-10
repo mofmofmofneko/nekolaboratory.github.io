@@ -1,0 +1,29 @@
+title: NekoLaboratory
+author:
+  name: "Yusuke Arakawa"
+  url: "https://nekolaboratory.com"
+
+baseurl: /
+
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 5
+paginate_path: /page/:num/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+owner : "NekoLaboratory"
+year : "2022"

@@ -1,0 +1,3 @@
+[submodule "nekolaboratory"]
+	path = nekolaboratory
+	url = git@github.com:nekolaboratory/nekolaboratory.git
